@@ -1,2 +1,23 @@
+encoding: "utf-8"
+timezone: "Europe/Stockholm"
+
+permalink: "/:categories/:year/:month/:title/"
+
+
 gems:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Peter Liljenberg"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
