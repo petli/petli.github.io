@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-sm-8">
           <h1>{{ page.title }}</h1>
-          <p class="text-muted">
+          <p>
             {% for category in page.categories %}
               <span class="badge">{{ category }}</span>
             {% endfor %}
@@ -23,7 +23,7 @@
               <span class="badge">{{ tag }}</span>
             {% endfor %}
               <br>
-            <small>Posted by {{ page.author }} on {{ page.date | date_to_long_string }}</small>
+            <small class="text-muted">Posted by {{ page.author }} on {{ page.date | date_to_long_string }}.</small>
           </p>
           <div class="post-content">
             {{ content }}
