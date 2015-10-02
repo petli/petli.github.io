@@ -19,7 +19,7 @@ img.top-logo {
 }    
 
 .first-column-header:after {
-    content: '\00a0';
+    content: '';
     font-size: 36px;
 }
 
@@ -30,6 +30,13 @@ div.post-content {
         max-width: 100%;
         height: auto;
         display: block;
+    }
+}
+
+/* Some extra spacing in the list of latest posts */
+ul.latest-posts {
+    li {
+        margin-bottom: 6px;
     }
 }
 

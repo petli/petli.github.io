@@ -1,3 +1,8 @@
+name: Klavreströms kodmanufaktur
+description: Posts about codplayer and coding things learnt the hard way.
+url: http://www.klavrekod.se
+author: Peter Liljenberg
+
 encoding: "utf-8"
 timezone: "Europe/Stockholm"
 
@@ -8,6 +13,8 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+
+markdown: redcarpet
 
 gems:
   - jekyll-feed
