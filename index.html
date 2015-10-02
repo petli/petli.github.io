@@ -11,7 +11,9 @@ title: Klavreströms kodmanufaktur
       <div class="row">
         <div class="col-sm-8">
           {% for post in site.posts %}
-            <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+            <h3 {% if forloop.first %}class="first-column-header"{% endif %}>
+              <a href="{{post.url}}">{{ post.title }}</a>
+            </h3>
             
             {{ post.excerpt | markdownify }}
 
@@ -37,7 +39,7 @@ title: Klavreströms kodmanufaktur
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
-          <h4>Hello.</h4>
+          <h4 class="first-column-header">Hello.</h4>
 
           <div class="text-muted">
             <p> I'm a software consultant, drawing boxes and arrows and

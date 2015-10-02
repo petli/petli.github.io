@@ -12,6 +12,17 @@ img.top-logo {
     margin-right: auto;
 }
 
+/* Ensure that headers have the same baseline-ish */
+.first-column-header {
+    margin-top: 10px;
+}    
+
+.first-column-header:after {
+    content: '\00a0';
+    font-size: 36px;
+}
+
+
 div.post-content {
     img {
         max-width: 100%;
