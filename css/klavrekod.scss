@@ -2,6 +2,7 @@
 ---
 /* -*-css-mode-*- */
 
+/* Responsive top logo */
 img.top-logo {
     border-width: 0px;
     width: 100%;
@@ -23,6 +24,7 @@ img.top-logo {
 }
 
 
+/* Fit images inside column */
 div.post-content {
     img {
         max-width: 100%;
@@ -31,6 +33,7 @@ div.post-content {
     }
 }
 
+/* Semicolon logo in the footer */
 div.semicolon-footer {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -41,6 +44,7 @@ div.semicolon-footer {
     }
 }
 
+/* License information footer */
 table.license {
     border-width: 0px;
 

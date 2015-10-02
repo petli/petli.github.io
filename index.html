@@ -21,10 +21,10 @@ title: Klavreströms kodmanufaktur
               <small class="text-muted">Posted on {{ post.date | date_to_long_string }}.</small>
               <br>
               {% for category in post.categories %}
-                <span class="badge">{{ category }}</span>
+                <span class="label label-default">{{ category }}</span>
               {% endfor %}
               {% for tag in post.tags %}
-                <span class="badge">{{ tag }}</span>
+                <span class="label label-default">{{ tag }}</span>
               {% endfor %}
             </p>
 

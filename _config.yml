@@ -3,6 +3,11 @@ timezone: "Europe/Stockholm"
 
 permalink: "/:categories/:year/:month/:title/"
 
+exclude:
+  - src
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
 
 gems:
   - jekyll-feed
