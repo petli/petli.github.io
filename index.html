@@ -1,16 +1,12 @@
 ---
+title: Klavreströms kodmanufaktur
 ---
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="/images/klavrekod.svg" width="400"
-               class="img-responsive center-block">
-        </div>
-      </div>
+      {% include logo.html %}
 
       <div class="row">
         <div class="col-sm-8">
@@ -30,8 +26,14 @@
               {% endfor %}
             </p>
 
-            <hr>
+            {% if forloop.last %}{% else %}<hr>{% endif %}
           {% endfor %}
+
+          <footer>
+            <div class="semicolon-footer text-center">
+              <img src="/images/semicolon.svg">
+            </div>
+          </footer>
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">

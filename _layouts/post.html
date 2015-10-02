@@ -5,12 +5,7 @@
   {% include head.html %}
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="/images/klavrekod.svg" width="400"
-               class="img-responsive center-block">
-        </div>
-      </div>
+      {% include logo.html %}
 
       <div class="row">
         <div class="col-sm-8">
@@ -28,6 +23,35 @@
           <div class="post-content">
             {{ content }}
           </div>
+
+          <footer>
+            <div class="semicolon-footer text-center">
+              <img src="/images/semicolon.svg">
+            </div>
+
+            <table class="license">
+              <tr>
+                <td class="license-image">
+                  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                    <img class="cc-license"
+                         alt="Creative Commons License CC-BY 4.0"
+                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+                  </a>
+                </td>
+                <td>
+                  <p class="text-muted">
+                    <small>
+                      Unless otherwise noted, the contents of
+                      all posts is Copyright 2015 Peter Liljenberg and licensed under a
+                      <a rel="license"
+                         href="http://creativecommons.org/licenses/by/4.0/">
+                        Creative Commons Attribution 4.0 International License</a>.
+                    </small>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </footer>
         </div>
 
         <div class="col-sm-3 col-sm-offset-1">
