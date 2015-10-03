@@ -1,6 +1,5 @@
 ---
 ---
-/* -*-css-mode-*- */
 
 /* Responsive top logo */
 img.top-logo {
@@ -48,6 +47,20 @@ div.semicolon-footer {
     img {
         width: auto;
         height: 40px;
+    }
+}
+
+/* Feed icon */
+p.feed {
+    img {
+        height: 16px;
+        width: 16px;
+        margin-right: 5px;
+        margin-bottom: 4px;
+    }
+
+    a {
+        color: #e4021d;
     }
 }
 
