@@ -84,3 +84,40 @@ table.license {
         margin-bottom: 0px;
     }
 }
+
+/* Zoom images */
+#image-zoom-overlay {
+    display: none;
+
+    position: fixed;
+    z-index: 100;
+
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    * {
+        padding: 0px;
+    }
+
+}
+
+#image-zoom {
+    display: block;
+
+    max-width: 90%;
+    max-height: 90%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 10px;
+    background-color: #fff;
+}
+
+.disable-scroll {
+    overflow: hidden;
+}
