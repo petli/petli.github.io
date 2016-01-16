@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60"
-   height="60"
+   width="75"
+   height="75.5"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -247,25 +247,25 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#ee1e02"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="-26.182674"
-     inkscape:cy="19.210499"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="26.774537"
+     inkscape:cy="33.589987"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="0"
+     fit-margin-top="0.5"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="956"
-     inkscape:window-height="1104"
+     inkscape:window-width="1107"
+     inkscape:window-height="1086"
      inkscape:window-x="0"
-     inkscape:window-y="75"
+     inkscape:window-y="93"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -283,10 +283,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-406.01114,-367.29405)">
+     transform="translate(-397.22345,-359.87463)">
+    <rect
+       style="fill:#ee1d02;fill-opacity:1;fill-rule:nonzero;stroke:#ee1d02;stroke-width:20;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3817"
+       width="55"
+       height="55"
+       x="407.22345"
+       y="370.37463" />
     <g
-       style="fill:#ee1d02;fill-opacity:1"
-       transform="matrix(0.32313728,0,0,0.32313728,76.659477,177.14357)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.28571363,0,0,0.28571363,116.98955,203.22054)"
        id="7">
       <circle
          d="m 92,189 c 0,13.25483 -10.745166,24 -24,24 -13.254834,0 -24,-10.74517 -24,-24 0,-13.25483 10.745166,-24 24,-24 13.254834,0 24,10.74517 24,24 z"
@@ -299,17 +306,17 @@
          r="24"
          transform="translate(980.571,555.791)"
          id="U"
-         style="fill:#ee1d02;fill-opacity:1" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          d="m 1140.5714,768.79075 -34,0 c 0,-45.28735 -36.7126,-82 -82,-82 l 0,-34 c 64.0651,0 116,51.93497 116,116 z"
          id="V"
-         style="fill:#ee1d02;fill-opacity:1" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          d="m 1164.5714,768.79075 c 0,-77.31986 -62.6801,-140 -140,-140 l 0,-35 c 96.6499,0 175,78.35017 175,175 l -35,0 z"
          id="W"
-         style="fill:#ee1d02;fill-opacity:1" />
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>
