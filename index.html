@@ -9,37 +9,10 @@ title: Klavreströms kodmanufaktur
       {% include logo.html %}
 
       <div class="row">
-        <div class="col-sm-8">
-          {% for post in site.posts %}
-            <h3 {% if forloop.first %}class="first-column-header"{% endif %}>
-              <a href="{{post.url}}">{{ post.title }}</a>
-            </h3>
-            
-            {{ post.excerpt | markdownify }}
 
-            <p>
-              <small class="text-muted">Posted on {{ post.date | date_to_long_string }}.</small>
-              <br>
-              {% for category in post.categories %}
-                <span class="label label-default">{{ category }}</span>
-              {% endfor %}
-              {% for tag in post.tags %}
-                <span class="label label-default">{{ tag }}</span>
-              {% endfor %}
-            </p>
-
-            {% if forloop.last %}{% else %}<hr>{% endif %}
-          {% endfor %}
-
-          <footer>
-            <div class="semicolon-footer text-center">
-              <img src="/images/semicolon.svg">
-            </div>
-          </footer>
-        </div>
-
-        <div class="col-sm-3 col-sm-offset-1">
-          <h4 class="first-column-header">Hello</h4>
+        <!-- Right (info) column -->
+        <div class="col-sm-3 col-sm-push-9">
+          <h4 class="first-column-header">About</h4>
 
           <div class="text-muted">
             <p> I'm a software consultant, drawing boxes and arrows and
@@ -68,7 +41,41 @@ title: Klavreströms kodmanufaktur
           </ul>
 
           {% include feedicon.html %}
+
+          <hr class="visible-xs-block" />
         </div>
+
+
+        <!-- Left (content) columnn -->
+        <div class="col-sm-8 col-sm-pull-3">
+          {% for post in site.posts %}
+            <h3 {% if forloop.first %}class="first-column-header"{% endif %}>
+              <a href="{{post.url}}">{{ post.title }}</a>
+            </h3>
+
+            {{ post.excerpt | markdownify }}
+
+            <p>
+              <small class="text-muted">Posted on {{ post.date | date_to_long_string }}.</small>
+              <br>
+              {% for category in post.categories %}
+                <span class="label label-default">{{ category }}</span>
+              {% endfor %}
+              {% for tag in post.tags %}
+                <span class="label label-default">{{ tag }}</span>
+              {% endfor %}
+            </p>
+
+            {% if forloop.last %}{% else %}<hr>{% endif %}
+          {% endfor %}
+
+          <footer>
+            <div class="semicolon-footer text-center">
+              <img src="/images/semicolon.svg">
+            </div>
+          </footer>
+        </div>
+
       </div>
     </div>
   </body>
