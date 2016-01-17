@@ -43,7 +43,7 @@ prefiltering on the ethernet layer to mark up the IP packets with
 their VLAN tags, so that iptables filters can later use those marks to
 determine whether to deliver the DHCP packets or not.
 
-I chosed the much simpler solution: moved the devices on eth0 onto a
+I chose the much simpler solution: moved the devices on eth0 onto a
 new VLAN, and told dhcpd to only listen on the VLAN interfaces in
 `/etc/default/isc-dhcp-server`:
 
