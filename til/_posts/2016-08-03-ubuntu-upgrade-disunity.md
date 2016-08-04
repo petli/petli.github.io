@@ -77,8 +77,8 @@ out, logging back in using the standard Unity session instead of i3wm
 in Gnome.
 
 The first thing that happens in the Unity session is that the release
-upgrade notification pops up.  Accepting the ugprade the GUI-based
-upgrade happily started, noting that all packages was already
+upgrade notification pops up.  Accepting the upgrade the GUI-based
+process happily started, noting that all packages was already
 downloaded and setting off installing them.
 
 
